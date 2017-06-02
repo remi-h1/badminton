@@ -1,0 +1,240 @@
+/*
+auteur : Rémi Hillériteau
+*/
+/* page web en générale */
+	body
+	{
+	display: block;
+	min-width: 1110px;
+	padding-top: 10px;
+	}
+
+	/* couleur des liens */
+		a#img:link { text-decoration: none ;color: #AAD0D0; border: none;} 
+
+		a#img:visited { text-decoration: none; color: #AAD0D0; border: none;} 
+
+		a#img:hover, a:active { color: #93BFBF; border: none;} 
+
+		a, a:link, a:active a:visited { 
+		text-decoration: none!important;
+		color: rgba(0, 0, 180, 0.8)!important;
+		color: #0000b4;
+		} 
+		a:hover
+		{
+		color: #00abc4 !important; /* #a8da3c */
+		}
+
+/* entête des pages */
+	.header
+	{
+		width: 1100px;
+		margin: auto;
+	}
+
+	/* titre */
+
+	.bleu
+	{
+		color: #00abc4;
+	}
+	.gris
+	{
+		color: rgba(180, 180, 180, 0.8);
+	}
+	.vert
+	{
+		color: #a8da3c;
+	}
+	.titreRegion
+	{
+		float: right;
+		margin-top: -20px;
+		margin-bottom: 18px;
+		margin-right: 180px;
+		font-size: 17px;
+	}
+	.header h1
+	{
+		font-size: 44px;
+		text-align: center;
+	}
+	.homeImage
+	{
+		display: inline-block;
+		width: 25px;
+		height: 25px;
+		background: url(' img/home3.png') no-repeat;
+		background-size: 25px;
+	}
+	.homeImage:hover
+	{
+		background: url(' img/homeH2.png') no-repeat;
+		background-size: 25px;
+		width: 25px;
+		height: 25px;
+	}
+	.lienMenuActif .homeImage
+	{
+		display: inline-block;
+		width: 25px;
+		height: 25px;
+		background: url(' img/homeA1.png') no-repeat;
+		background-size: 25px;
+	}
+	
+
+/* menu horizontal */
+	.nav
+	{
+	width: 1080px;
+	padding: 8px;
+	font-size: 19px;
+	border-collapse: collapse;
+	}
+	.nav td 
+	{
+		border: solid #1B3280 1.4px;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding: 5px;
+	}
+	.lienMenu
+	{
+
+	}
+	.lienMenuActif
+	{
+		
+	}
+	.lienMenuActif a
+	{
+		color: #FF0000 !important; /* #a8c80d */
+	}
+
+/*  page */
+	.page 
+	{
+		display: block;
+		margin: auto;
+		width: 1100px;
+	}
+
+
+/* page matchs en attentes, en cours, finis */
+	.matchsEnCours
+	{
+		border-collapse: collapse;
+		width: 1090px;
+	}
+	.matchsEnCours td 
+	{
+		border: solid rgba(0,0,0,0.18) 1.4px;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding: 5px;
+	}
+	.matchsEnCours th
+	{
+		border: solid rgba(0,0,0,0.18) 1.4px;
+		background: rgba(0,0,0,0.2);
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding: 5px;
+	}
+	.valider
+	{
+	text-decoration: none!important;
+    color: rgba(0, 188, 0, 0.8);
+    border: none;
+    background: none;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    text-align: center;
+	}
+	.enAttente
+	{
+	text-decoration: none!important;
+    color: rgba(220, 150, 0, 1);
+    border: none;
+    background: none;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+	}
+	.passer
+	{
+	text-decoration: none!important;
+    color: rgba(50, 50, 220, 1);
+    border: none;
+    background: none;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+	}
+	.set 
+	{
+		width: 70px;
+	}
+
+	.alert
+	{
+		color: red;
+		font-size: 20px;
+		text-align: center;
+	}
+	.message
+	{
+		color: green;
+		font-size: 20px;
+		text-align: center;
+	}
+	.messageOrange
+	{
+		color: orange;
+		font-size: 20px;
+	}
+
+/**************** page tableau tournoi **************/
+	.defautVP
+	{
+		color: grey;
+	}
+
+
+/****** page classement.php ******/
+	.vide
+	{
+		border-top: none;
+		border-bottom: none;
+	}
+/******* page affichageClassementRang.php ********/
+	.classement
+	{
+		border-collapse: collapse;
+	}
+	.classement td 
+	{
+		border: solid rgba(0,0,0,0.18) 1.4px;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding: 5px;
+	}
+	.classement th
+	{
+		border: solid rgba(0,0,0,0.18) 1.4px;
+		background: rgba(0,0,0,0.2);
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding: 5px;
+	}
